@@ -1414,7 +1414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301182935}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.954827, y: -0.14788306, z: -10}
+  m_LocalPosition: {x: -10.907762, y: -0.1486479, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1634,6 +1634,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1257389560453861770, guid: 1d5e1cff4f7a9e44f96330a22b0ff135, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1773349807}
     - target: {fileID: 1257389560453861770, guid: 1d5e1cff4f7a9e44f96330a22b0ff135, type: 3}
       propertyPath: JumpForce
       value: 7
@@ -1887,6 +1891,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6618320404057218002, guid: 82958d7e7ea27ff4a8c5a56028acf5df, type: 3}
   m_PrefabInstance: {fileID: 1703239916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1773349807 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1257389560453861775, guid: 1d5e1cff4f7a9e44f96330a22b0ff135, type: 3}
+  m_PrefabInstance: {fileID: 1596828683}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1860385401
 PrefabInstance:
