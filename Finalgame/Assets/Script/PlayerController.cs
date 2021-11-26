@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float MovementSpeed = 2.0f;
     public float JumpForce = 5.0f;
-    private int score = 0;
+    public int score = 0;
     private Rigidbody2D _rigibody;
     public Animator animator;
     float horizonMove = 0.0f;
